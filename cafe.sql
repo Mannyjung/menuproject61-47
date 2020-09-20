@@ -29,8 +29,8 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `menu` (
-  `menu_id` char(5)   NOT NULL,
-  `menu_name` varchar(255)   NOT NULL,
+  `menu_id` char(5) NOT NULL,
+  `menu_name` varchar(255)  NOT NULL,
   `mcategory_id` int(2) NOT NULL,
   `mshop_id` char(5)  NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
